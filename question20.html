@@ -3,41 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <form class="quiz-container">
       <h1>HTML QUIZ!</h1>
-      <h3>Question 8 of 20:</h3>
-      <p>What is the correct HTML for creating a hyperlink?</p>
+      <h3>Question 20 of 20:</h3>
+      <p>What is the correct HTML for inserting a background image?</p>
 
       <div class="radio-group">
         <label class="option">
-          <input type="radio" name="html" checked />
+          <input type="radio" name="html" />
           <span class="custom-radio"></span>
-          &lt;a&gt;http://www.w3schools.com&lt;/a&gt;
+          &lt;background img="background.gif"&gt;
         </label>
 
         <label class="option">
           <input type="radio" name="html" />
           <span class="custom-radio"></span>
-          &lt;a href="http://www.w3schools.com">W3Schools /a&gt;
+          &lt;body bg="background.gif"&gt;
         </label>
 
         <label class="option">
           <input type="radio" name="html" />
           <span class="custom-radio"></span>
-          &lt;a name="http://www.w3schools.com">W3Schools.com /a&gt;
-        </label>
-
-        <label class="option">
-          <input type="radio" name="html" />
-          <span class="custom-radio"></span>
-          &lt;a url="http://www.w3schools.com">W3Schools.com /a&gt;
+          &lt;body style="background-image:url(background.gif)"&gt;
         </label>
       </div>
-      <button type="button" onclick="window.location.href='question9.html'">
+      <button type="button" onclick="window.location.href='result.html'">
         Next➡️
       </button>
     </form>
